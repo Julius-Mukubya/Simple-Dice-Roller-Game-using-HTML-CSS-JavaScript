@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+#container{
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    box-shadow: 2px 2px 2px;
+}
+
+#container div{
+    margin: 20px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+#diceNum{
+    width: 8em;
+    height: 2em;
+}
+
+#rollDice{
+    padding: 5px;
+    background-color:  #3597fe;
+    color: white;
+    border-color: #3597fe;
+    border-radius: 5px;
+}
+
+#diceOutcomes{
+    display: none;
+}
+
+img{
+    height: 3em;
+    margin: 5px;
+}
